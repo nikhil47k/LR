@@ -1,0 +1,73 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=C_Functions.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=53
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.53.0.1203
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=
+DisableRegenerate=0
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+C_Assignment=C_Assignment.c
+LR_Parameters_Assignment=LR_Parameters_Assignment.c
+Main_Action=Main_Action.c
+Action1=Action1.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+C_Assignment=1
+LR_Parameters_Assignment=1
+Main_Action=1
+Action1=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+C_Assignment=0
+LR_Parameters_Assignment=0
+Main_Action=0
+Action1=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+C_Assignment=1
+LR_Parameters_Assignment=1
+Main_Action=1
+Action1=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+C_Assignment=cci
+LR_Parameters_Assignment=cci
+Main_Action=cci
+Action1=cci
+vuser_end=cci
+[TransactionsOrder]
+Order=
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
